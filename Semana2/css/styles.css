@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+input{
+    width: 350px;
+    padding: 10px;
+}
+.forminput{
+    border-radius: 12px;
+    border: 0.5px solid purple;
+}
+#botonenviar{
+    background-color: royalblue;
+    border:none;
+    color: greenyellow;
+    padding: 12px;
+    width: 250px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+#botonenviar:hover {
+    background-color: cyan;
+    border: 1px solid #000;
+}

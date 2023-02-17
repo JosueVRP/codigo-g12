@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <section>
-        <h1>Formularios</h1>
+        <h1 style="color: red; font-size: 60px;">Formularios</h1>
         <form>
             <p>
-            <input type="text" placeholder="Ingresa tu nombre" autocomplete="off" name" required>
+            <input type="text" class="forminput" placeholder="Ingresa tu nombre" autocomplete="off" name="ingresanombre" required>
             </p>
             <p>
-            <input type="email" placeholder="Ingresa tu correo" name="email" readonly value="josuerojaskt@gmail.com">
+            <input type="email" class="forminput" placeholder="Ingresa tu correo" name="email" readonly value="josuerojaskt@gmail.com">
             </p>
             <p>
-            <input type="password" placeholder="Ingresa una contraseña segura" name="password" disabled>
+            <input type="password" class="forminput" placeholder="Ingresa una contraseña segura" name="password" disabled>
             </p>
             <p>
             <input type="file" name="image" accept="image/*">
@@ -54,6 +55,9 @@
             </p>
             <p>
             <input type="color" name="bg_color">
+            </p>
+            <p>
+            <button id="botonenviar" type="submit">Enviar</button>
             </p>
         </form>
     </section>
